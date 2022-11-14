@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+.container {
+  width: 1165px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  all: unset;
+}

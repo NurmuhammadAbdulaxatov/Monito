@@ -1,0 +1,92 @@
+.foot {
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  border-radius: 40px 40px 0px 0px;
+  width: 85.5vw;
+  padding: 100px 80px 40px 100px;
+}
+
+footer {
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #a3a3a3;
+
+    ul {
+      display: flex;
+      margin-top: 40px;
+      padding-left: 0;
+      gap: 50px;
+      padding-bottom: 30px;
+
+      li {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #00171f;
+      }
+    }
+  }
+
+  .forma {
+    display: flex;
+    background-color: $text-color;
+    padding: 32px;
+    border-radius: 16px;
+    width: 1100px;
+
+    strong {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      text-transform: capitalize;
+      color: #fdfdfd;
+      width: 388px;
+    }
+
+    form {
+      padding: 12px;
+      background-color: #fff;
+      border-radius: 14px;
+
+      input {
+        padding: 14px 300px 14px 28px;
+        border-radius: 8px;
+        border: 1px solid rgb(206, 206, 206);
+      }
+
+      button {
+        all: unset;
+        background-color: $text-color;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fdfdfd;
+        padding: 13px 30px 9px 30px;
+        border-radius: 8px;
+        margin-left: 12px;
+      }
+    }
+  }
+
+  .tugadi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #667479;
+    }
+  }
+}
